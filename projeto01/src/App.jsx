@@ -1,12 +1,12 @@
 import Cabecalho from "./Components/Cabecalho"
 import Rodape from "./Components/Rodape"
-import Secao from "./Components/Secao";
+import Principal from "./Components/Principal";
 function App() {
 
   return (
     <>
       <Cabecalho />
-      <Secao />
+      <Principal />
       <Rodape />
     </>
   )
