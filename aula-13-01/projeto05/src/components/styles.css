@@ -1,0 +1,40 @@
+.btn{
+    padding: 10px 20px;
+    border: none;
+
+}
+
+.ouro {
+    background-color: gold;
+    color: black;
+}
+
+.prata {
+    background-color: silver;
+    color: black;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.loading {
+    animation: pulse 1s infinite;
+}
+
+.dark {
+    border: 2px solid white;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.09);
+    }
+}

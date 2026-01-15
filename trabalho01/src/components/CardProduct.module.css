@@ -1,0 +1,37 @@
+.card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    height: 100%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    background-color: rgba(194, 194, 194, 0.082);
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.disponivel {
+    background-color: rgb(31, 199, 255);
+    color: white;
+    font-weight: bold;
+}
+
+.indisponivel {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
